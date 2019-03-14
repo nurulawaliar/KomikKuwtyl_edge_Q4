@@ -1,0 +1,24 @@
+#genre-comic{
+	padding-top: 20px;
+	padding-bottom: 200px;
+	width: 77%;
+	height: 100%;
+	text-align: center;
+	margin-left: 160px;
+}
+
+#genre-comic ul{
+	list-style-type: none;
+}
+
+#genre-comic li{
+	display: inline-block;
+}
+.tabble-genre{
+	width: 100%;
+	margin-top: 20px;
+	background: white;
+}
+.comic-selected:hover{
+	background-color: rgba(0,0,0,0.1);
+}

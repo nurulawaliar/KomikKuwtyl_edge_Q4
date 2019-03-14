@@ -1,0 +1,982 @@
+@charset "utf-8";
+
+body, html {
+    height: 100%;
+    width:100%;
+    margin: 0px;
+}
+
+/*header*/
+#header {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	padding-bottom: 0px;
+}
+
+/* Logo placeholder*/
+#logo {
+	float: left;
+	width: 140px;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	background: url();
+	padding-left: 5px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	z-index: 99;
+	position: relative;
+	top: -10px;
+}
+
+#logo img {
+	width: 180px;
+	height: 180px;
+	
+}
+
+/* div for Links in header */
+.headerLinks {
+	width: 100%;
+	height: 95px; 
+	background-color: #A6DCC7;
+}
+
+/* left link */
+.headerLinks ul#left-link{
+	list-style-type: none;
+	padding-top: 20px;
+	float: left;
+}
+
+.headerLinks ul#left-link li{
+	display: inline;
+	padding-right: 20px;
+	
+}
+
+/* right link */
+.headerLinks ul#right-link{
+	list-style-type: none;
+	padding: 10px;
+	padding-right: 30px;
+	float: right;
+	font-weight: bold;
+}
+
+.headerLinks ul#right-link li{
+	display: inline;
+	padding-left: 10px;
+	}
+
+/* Links in header */
+.headerLinks a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: bolder;
+	
+}
+.headerLinks a:hover {
+  	color: #f4511e;
+}
+
+.headerLinks .header-btn {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.6;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.headerLinks .header-btn:hover {
+	opacity: 1;
+	cursor: pointer;
+	color: black;
+}
+
+/* animation */
+.animate-right{position:relative;-webkit-animation:animateright 2s;animation:animateright 2s}
+@-webkit-keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:0}}
+
+.animate-left{position:relative;animation:animateleft 1s}
+ @keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+
+ .animate-fading{-webkit-animation:fading 10s infinite;animation:fading 10s infinite}
+@-webkit-keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+.animate-opacity{-webkit-animation:opac 0.8s;animation:opac 0.8s}
+@-webkit-keyframes opac{from{opacity:0} to{opacity:1}}
+@keyframes opac{from{opacity:0} to{opacity:1}}
+
+.animate-top{position:relative;-webkit-animation:animatetop 0.4s;animation:animatetop 0.4s}
+@-webkit-keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+
+
+.animate-bottom{position:relative;-webkit-animation:animatebottom 0.4s;animation:animatebottom 0.4s}
+@-webkit-keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0px;opacity:1}}
+@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+
+.animate-zoom {-webkit-animation:animatezoom 0.6s;animation:animatezoom 0.6s}
+@-webkit-keyframes animatezoom{from{-webkit-transform:scale(0)} to{-webkit-transform:scale(1)}}
+@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+
+ 
+/* Offer banner */
+#offer img{
+	width: 100%;
+	height: 350px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+ 	position: relative;
+	top: -70px;
+	z-index: 1;
+}
+
+.mySlides {
+    display: none;
+	background-image: url(img/bg.png);
+	background-size: auto;
+	padding-bottom: 30px;
+	width: 100%;
+	height: 100px;
+}
+
+
+/* content */
+#recomended-frame{
+	position: relative;
+	margin-top: -3.5%;
+}
+
+p#newcomic {
+	padding-top: 10px;
+	margin: 0px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family:  'Montserrat', sans-serif;
+    background: #A6DCC7;
+	
+	
+}
+
+#new-comic {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	position: relative;
+	width: 90%;
+	text-align: center;
+	margin-left: 60px;
+	border-bottom: 3px solid white;
+}
+
+#new-comic ul{
+	list-style-type: none;
+	position: relative;
+	
+}
+
+#new-comic li{
+	display: inline-block;
+}
+
+#new-comic img{
+	width: 200px;
+	height: 200px;
+	box-shadow: -1px 0 aliceblue, 0 1px aliceblue, 1px 0 aliceblue, 0 -1px aliceblue;
+}
+
+#genre-frame{
+	
+}
+
+
+p#genrecomic{
+	padding-top: 30px;
+	margin: 0px;
+	padding-left: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family:  'Montserrat', sans-serif;
+	text-align: center;
+}
+
+#genrecomic a{
+	color:  black;
+	text-decoration: none;
+}
+
+#genrecomic a:hover{
+	color:  #f4511e;
+	text-decoration: none;
+}
+
+#genre-comic{
+	padding-top: 20px;
+	padding-bottom: 200px;
+	width: 77%;
+	height: 100%;
+	text-align: center;
+	margin-left: 160px;
+}
+
+#genre-comic img{
+	width: 188px;
+	height: 200px;
+}
+
+.frame-genrecomic{
+	border: medium #000000 solid;
+	background: white;
+	border-style: dashed;
+	position: relative; 
+	width: 195px;
+	height: 280px;
+} 
+
+#genre-comic ul{
+	list-style-type: none;
+}
+
+#genre-comic li{
+	display: inline-block;
+}
+
+.frame-genrecomic ul{
+	text-align: left;
+	padding: 10px;
+	display: grid;
+}
+
+.title-genrecomic{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.drama-genrecomic{
+	color: #4E95C8;
+	font-size: 16px;
+}
+
+.sol-genrecomic{
+	color:  #8CCCA9;
+	font-size: 16px;
+}
+
+.comedy-genrecomic{
+	color:  #D97721;
+	font-size: 16px;
+}
+
+.romance-genrecomic{
+	color:  #DD78D3;
+	font-size: 16px;
+}
+
+.horror-genrecomic{
+	color:  #B70003;
+	font-size: 16px;
+}
+
+.footer{
+	background: #A6DCC7;
+	width: 100%;
+	height: auto;
+	top: 1650px;
+}
+
+.footer-img{
+	padding-right: 20px;
+	padding-top: 20px;
+	width: 350px;
+	height: 350px;
+
+}
+
+.footer-link ul{
+	list-style-type: none;
+	position: relative;
+	left: -40px;
+}
+
+.footer-link li{
+	display: inline;
+	padding-right: 20px;
+}
+
+.footer-link{
+	width: 74%;
+	margin-left: 350px;
+	margin-bottom: 0px;
+	padding-top: 20px;
+	position: relative;
+	top: -40px;
+	
+}
+
+.footer-button{
+	border-radius: 10px;
+	padding: 10px;
+	background-image: url(file:///C:/Users/farishy/Downloads/Compressed/personal/personal/img/2.png);
+	background-size: 500px;
+	color: wheat;
+	width: 165px;
+	font-weight: bold;
+}
+
+.footer-text{
+	font-family: Haettenschweiler;
+	font-size: 45px;
+	position: relative;
+	bottom: -20px;
+	top: -29px;
+}
+
+.frame-sosmed{
+
+	position: relative;
+	width: 80%;
+	height: 80%;
+	top: -50px;
+	border-radius: 10%;
+
+}
+
+
+.footer-text ul{
+	list-style-type: none;
+	
+}
+
+.footer-text li{
+	display: inline;
+	padding-right: 10px;
+	
+}
+
+.copyright{
+	background: #1F1F1F;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: white;
+	
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 40px; /* Place the button at the bottom of the page */
+    right: 40px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #f4511e; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #398F36; /* Add a dark-grey background on hover */
+}
+
+#mainWrapper{
+	background:aliceblue;
+	margin: 0px;
+}
+
+/* genre page */
+
+.genre-type{
+	background: #1F1F1F;
+	position: absolute;
+	top: 90px;
+	width: 100%;
+	z-index: 1;
+	
+	
+}
+
+.genre-type ul{
+	list-style-type: none;
+	text-align: center;
+	
+}
+
+.genre-type li{
+	display: inline;
+	
+}
+
+.genre-type a{
+	color: antiquewhite;
+	text-decoration: none;
+	font-weight: bold;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.genre-type a#genre-drama:hover{
+	color: white;
+	background: #4E95C8;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.genre-type a#genre-drama:active{
+	color: white;
+	background: #4E95C8;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.genre-type a#genre-sol:hover{
+	color: white;
+	background: #8CCCA9;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.genre-type a#genre-comedy:hover{
+	color: white;
+	background: #D97721;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.genre-type a#genre-romance:hover{
+	color: white;
+	background: #DD78D3;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.genre-type a#genre-horror:hover{
+	color: white;
+	background:  #B70003;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.genre-type a#top:hover{
+	color: white;
+	background:  #f4511e;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#genres-content{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin-top: 30px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	background-image: url(img/bgg1.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#gpage-drama{
+	text-align: left;
+}
+
+.gpage-title{
+	margin-left: 155px;
+}
+
+#gpage-sol{
+	text-align: left;
+}
+
+#gpage-comedy{
+	text-align: left;
+}
+
+#gpage-romance{
+	text-align: left;
+}
+
+#gpage-horror{
+	text-align: left;
+	text-decoration: none;
+}
+
+.gpage-comic{
+	width: 80%;
+	position: relative;
+	margin-left: 150px;
+}
+
+.gpage-comic img{
+	width: 200px;
+	height: 200px;
+}
+
+.gpage-comic ul{
+	list-style-type: none;
+}
+
+.gpage-comic li{
+	display: inline-block;
+}
+
+#gpage-footer{
+	position: absolute;
+	background: #EEE5BE;
+	width: 100%;
+	height: 282px;
+	top: 1580px;
+}
+
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.loginframe-logo {
+    text-align: center;
+    margin: 24px 0 0 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+	padding-top: 0px;
+}
+
+.loginframe-input {
+    padding: 16px;
+	margin-left: 50px;
+	margin-right: 50px;
+	position: relative;
+	margin-top: -10%;
+}
+
+.loginbtn{
+	width: 100%;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+/* The Modal (background) */
+.login-frame {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: none; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 30px;
+	
+}
+
+/* Modal Content/Box */
+.loginframe-content {
+    background-color: #A6DCC7;
+    margin: 0% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px; 
+	
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close_signup{
+    position: absolute;
+    right: 300px;
+    top: -330;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,.close:focus, .close_signup:hover,.close_signup:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+.signupframe-input {
+    padding: 16px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+/* The Modal (background) */
+.signup-frame {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: none; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 40px;
+	
+}
+
+/* Modal Content/Box */
+.signupframe-content {
+    background-color: #A6DCC7;
+    margin: 0% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px; 
+	
+}
+
+.signupbtn{
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 50%;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+}
+
+.banner-comic{
+	margin: 0px;;
+	width: 100%;
+}
+
+.comic-title{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: -20%;
+	margin-left: -2%;
+	z-index: 1;
+	font-size: 36px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.comic-genre-drama{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: -23%;
+	margin-left: -2%;
+	z-index: 1;
+	font-size: 24px;
+	color: #4E95C8;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.comic-genre-sol{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: -23%;
+	margin-left: -2%;
+	z-index: 1;
+	font-size: 24px;
+	color: #8CCCA9;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.comic-genre-comedy{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: -23%;
+	margin-left: -2%;
+	z-index: 1;
+	font-size: 24px;
+	color: #D97721;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.comic-genre-romance{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: -23%;
+	margin-left: -2%;
+	z-index: 1;
+	font-size: 24px;
+	color: #DD78D3;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.comic-genre-horror{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: -23%;
+	margin-left: -2%;
+	z-index: 1;
+	font-size: 24px;
+	color:  #B70003;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.banner-comic img{
+	width: 150%;
+	margin-left: -25%;
+	margin-top: -100px;
+	z-index: -1;
+}
+
+.frame-comic-content{
+	position: relative;
+	left: 5%;
+	margin-top: -12.6%;
+	width: 90%;
+	height: 600px;
+	background: white;
+	margin-bottom: 100px;
+}
+
+.frame-comic-leftcontent{
+	width: 70%;
+	height: 100%;
+	position: relative;
+	border-right: #A7C1D1 1px  solid;
+	border-top-left-radius: 2%;
+	
+}
+
+.frame-comic-leftcontent a{
+	text-decoration: none;
+}
+
+.frame-comic-rightcontent{
+	width: 30%;
+	height: 100%;
+	position: relative;
+	left: 70%;
+	bottom: 100%;
+	
+}
+
+.frame-comic-description{
+	position: relative;
+	width: 100%;
+	height: 50%;
+	border-bottom: #A7C1D1 1px  solid;
+	
+}
+
+.frame-profile-comic{
+	width: 25%;
+	height: 100%;
+	
+}
+
+.frame-profile-comic img{
+	width: 100%;
+	height: 100%;
+	padding: 5%;
+}
+
+.frame-description-content{
+	width: 90%;
+	position: relative;
+	height: 100%;
+	left: 5%;
+	padding: 1%;
+	text-align: left;
+	
+}
+
+.frame-comic-episode-type1{
+    background-color: rgba(0,0,0,0.1); /* Black w/ opacity */
+	height: 17.2%;
+	width: 100%;
+	
+}
+
+.frame-comic-episode-type2{
+    background-color: rgba(10,10,10,0.15); /* Black w/ opacity */
+	height: 17.2%;
+	width: 100%;
+	
+}
+
+.frame-image-episode{
+	height: auto;
+	width: 103px;
+}
+
+.frame-image-episode img{
+	width: 100px;;
+	height: 100px;
+	padding: 5px;
+}
+
+.frame-title-episode{
+	position: relative;
+	width: 740px;
+	height: 102px;
+	margin-left: 102px;;
+	top: -102px;
+}
+
+.frame-title-episode p{
+	font-size: 30px;
+	padding-left: 20px;
+}
+
+.frame-panel-comic{
+	position: relative;
+	width: 80%;
+	text-align: center;
+	padding-bottom: 50px;
+	margin-left: 10%;
+}
+
+.frame-panel-comic ul{
+	list-style-type: none;
+	
+}
+
+.frame-panel-comic img{
+	width: 700px;
+	height: auto;
+	
+}
+
+.current-posted a{
+	text-decoration: none;
+}
+
+.current-posted a:hover{
+	text-decoration: none;
+	color: #f4511e;
+	box-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.pic1{
+	text-decoration: none;
+	width: 210px;
+	height: 210px;
+}
+
+.pic1:hover .pic2{
+	position: relative;
+	transform: scale(1);
+	
+}
+
+
+.pic2{
+  position: relative;
+  left: 0px;
+  margin-top: -200px;
+  overflow: hidden;
+  width: 100%;
+  -webkit-transform:scale(0);
+  transition: .3s ease;
+}
+
+.tabble-genre{
+	width: 100%;
+	margin-top: 20px;
+	background: white;
+}
+
+.comic-selected:hover{
+	background-color: rgba(0,0,0,0.1);
+}

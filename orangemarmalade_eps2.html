@@ -1,0 +1,271 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="kuwtyl comics is a free web comic platform that is only for you to read the various comics that will make you fantasize for as long as you want." name="description">
+  <meta content="komik kuwtyl" name="keyword">
+  <title>KomikKuwtyl - Imagine your brain with our imaginary</title>
+  <link rel="shortcut icon" href="img/maap.png" />
+  <link href="main.css" rel="stylesheet" type="text/css">
+  <link href="w31063.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="icon.css" type="text/css">
+  <script src="jquEE61.js"></script>	
+</head>
+<body style="background: white;" class="animate-left">
+  <!-- Frame full body -->
+  <div id="mainWrapper" style="background: #FFFFFF;">
+  <!-- Frame Header -->	  
+  <header id="header">
+	 <!-- component logo header -->
+     <div id="logo">  
+	 <a href="home.html"><img alt="logo" src="img/maap.png"></a>
+     </div>
+	 
+	 <!-- component link header -->
+     <div class="headerLinks">
+     	 <!-- left link -->
+		 <ul id="left-link">
+		  	<li class="basic-link"><a href="genre_page.html" title="click here, see more genre">All Comics</a></li>	
+		</ul>
+		 
+		 <!-- right link -->
+		 <ul id="right-link">
+		 <li><button class="header-btn" onClick="document.getElementById('act-loginbtn').style.display='block'" title="already have an account? click here.">Login</button></li>
+		 <li><button class="header-btn" title="didn't have an account? click here." onclick="document.getElementById('act-signupbtn').style.display='block'">Signup</button></li>
+		 </ul>
+	</div>
+  </header><br>
+	    
+  <!-- Nav genre Menu -->	
+  <div class="genre-type" id="myHeader">
+	  <nav>
+		  <ul>
+		  <li><a href="orangemarmalade_eps1.html" id="genre-horror">PREVIOUS EPISODE</a></li>
+		  <li><a href="orangemarmalade_description.html" id="genre-sol">BACK TO COMIC DESCIPTION</a></li>
+		  </ul>
+	  </nav>
+  </div>	
+  
+  <div class="frame-panel-comic">
+  	<ul>
+    <li><img alt="panel" src="comic/Orange Marmalade/episode/eps2/1.jpg" style="padding-top: 100px;"></li>
+	<li><img alt="panel" src="comic/Orange Marmalade/episode/eps2/2.jpg"></li>
+	<li><img alt="panel" src="comic/Orange Marmalade/episode/eps2/3.jpg"></li>
+	<li><img alt="panel" src="comic/Orange Marmalade/episode/eps2/4.jpg" style="padding-bottom: 100px;"></li>
+	</ul>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="footer">
+	<table border="0">
+	<tr>
+	<td width="20%"><img alt="logo" src="img/maap.png" class="footer-img"> </td>
+	<td valign="top"  style="padding-top: 4%; padding-left: 0%;" width="25%">
+	<p style="font-weight: bolder; font-size: 28px; color: white; text-shadow: -2px 0 #262626, 0 3px #262626, 0px 0 black, 0 0px black; ">KOMIK KUWTYL</p>
+	<p style="padding-right: 20%;text-align: justify; color: #222222">kuwtyl comics is a free web comic platform that is only for you to read the various comics that will make you fantasize for as long as you want.</p>
+	</td>
+	<td valign="top"  style="padding-top: 5%;" width="20%">
+	<p style="font-weight: bolder; font-size: 20px; color: #222222;">Current Posted</p>
+	<p>
+		<ul class="current-posted" style="position: relative; left: -20px; list-style-image: url('img/Add_List.ico');">
+		<a href="zomcom_eps3.html"><li>Zomcom, Episode 3 : Looking Shady</li></a>
+		<a href="miniavengers_eps2.html"><li>Mini Avengers Infinity War, Episode 2 : Jealous</li></a>
+		<a href="dice_description.html"><li>New Comic Released, DICE.</li></a>
+		</ul>
+	</p>
+	</td>
+	<td valign="top"  style="padding-top: 5%; padding-left: 0%;" width="20%">
+	<p style="font-weight: bolder; font-size: 20px; color: #222222;">Contact Us</p>
+	<p style="padding-right: 20%;">
+		Jalan Prof. DR. Ir R. Roosseno, Jawa Barat 16425
+		<ul class="current-posted" style="position: relative; left: -15px;">
+		<li style="list-style-image: url('img/Office_Phone.ico')">(021) 8865 761</li>
+		<li style="list-style-image: url('img/Message_1.ico')">komikkuwtyl@fifthgroup.com</li>
+		</ul>
+	</p>
+	</td>
+	</tr>
+	</table> 
+	<div class="copyright"><p align="center">Copyright &#169; 2018 Fifth Group Inc. All right reserved</p></div>
+  </footer>
+	  
+  <a href="#header" id="top"><button id="myBtn" title="Go to top"><img alt="top_btn" src="img/Up_50px_1.png" width="90%"></button></a>
+	
+  <!-- Login -->  
+  <!-- Login Form -->	  
+  <div id="act-loginbtn" class="login-frame">
+  	
+	<!-- Login Form Content -->
+	<form class="loginframe-content w3-animate-opacity" action="" method="" onSubmit="return ValidationLogin();">
+	<div style="background-color:#1F1F1F; width: 100%; height: 60px; border: 3px #1F1F1F solid; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+      <p style="margin-top: 15px; text-align: center; color: white; font-size: 20px; font-weight: bold;">LOGIN NOW TO MORE EXPERIENCES.</p>
+    </div>
+  	<div class="loginframe-logo">
+		<span onclick="document.getElementById('act-loginbtn').style.display='none'" class="close" title="Close Modal">&times;</span>
+     	<img src="img/re.png" alt="Avatar" class="avatar">
+    </div>
+    <div class="loginframe-input">
+      	<input type="text" placeholder="Enter Your Email" id="email1" name="email_login" title="ex email : emailname@hostname.com" pattern="[A-Za-z]+[a-z0-9._]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+      	<input type="password" placeholder="Enter Password" id="pass1" name="psw_login" required>
+      	<button type="submit" class="loginbtn">Login</button>
+      	<label><input type="checkbox" name="remember" style="margin-top: 20px;"> &nbsp; Remember me</label>
+    </div>
+    <div style="background-color:#1F1F1F; width: 100%; height: 60px; border: 3px #1F1F1F solid;">
+      <p style="margin-top: 15px; text-align: center; color: white;">Forgot password?<a href="#"> click here.</a></p>
+    </div>
+    </form>
+  </div>
+
+  <!-- signup Form -->
+  <div id="act-signupbtn" class="signup-frame">
+  <form id="signup" class="signupframe-content w3-animate-opacity" action="" method="" onSubmit="return ValidationSignup();">
+	
+	<!-- signup Form Content -->
+	<div class="signupframe-input">
+	<span onclick="document.getElementById('act-signupbtn').style.display='none'" class="close_signup" title="Close Modal">&times;</span>
+      <h1 style="widows: 50%; text-align: left;">Sign Up</h1>
+      <p>Create your account to feel goods. </p>
+      <hr style="border-color: black;">
+	  <div>
+	  <table width="100%">
+	  <tr>
+	  <td colspan="2"><label for="name"><b>Your Name</b></label></td>
+	  </tr>
+	  <tr>
+	  <td><input type="text" placeholder="Firstname" name="firstname" pattern="[A-Za-z]{1,15}$" title="only allowed the alphabet without space." required></td>
+	  <td><input type="text" placeholder="Lastname" name="lastname" pattern="[A-Za-z]{1,15}$" title="only allowed the alphabet without space." required></td>
+	  </tr>
+	  <tr>
+	  <td colspan="2"><label for="psw"><b>Email</b></label></td>
+	  </tr>
+	  <tr>
+	  <td colspan="2"><input type="text" placeholder="Enter Email" name="email" title="ex email : emailname@hostname.com" pattern="[A-Za-z]+[a-z0-9._]+@[a-z0-9.-]+\.[a-z]{2,3}$" required></td>
+	  </tr>
+	  <tr>
+	  <td colspan="2"><label for="psw"><b>Password</b></label></td>
+	  </tr>
+	  <tr>
+	  <td><input type="password" placeholder="Enter Password" name="psw" id="passsignup" required></td>
+	  <td><input type="password" placeholder="Confirm Password" name="psw-repeat" id="repasssignup" required></td>
+	  </tr>
+	  <tr>
+	  <td colspan="2"><label><input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">  &nbsp;Remember me
+	  <br>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</label>
+	  </td>
+	  </tr>
+	  <tr>
+	  <td colspan="2" align="center"><button type="submit" class="signupbtn">Sign Up</button></td>
+	  </tr>
+	  </table>
+        
+      </div>
+      </div>
+   </form>
+  </div>
+
+<script>
+	
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("headerLinks");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 10000);    
+}
+
+window.onscroll = function() {scrollFunction();myFunction();};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}	
+	
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("#top").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+      
+      });
+    } // End if
+  });
+});	
+	
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+	
+// Get the modal login
+var modal_login = document.getElementById('id01');
+var modal_signup = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal_login || modal_signup) {
+        modal.style.display = "none";
+    }
+}
+
+function ValidationLogin(form){
+	
+	var email = document.getElementById('email1').value;
+	var pass = document.getElementById('pass1').value;
+
+    if(email == "farishy.muhammad@icloud.com" && pass == "Renaissance48."){
+		window.location.href="home_lgn.html";
+		return false;
+	}else{
+		alert("You have entered an incorrect email or password!");
+		return false;
+	}
+}
+
+function ValidationSignup(form){
+	var pass_signup = document.getElementById('passsignup').value;
+	var repass_signup = document.getElementById('repasssignup').value;
+	
+	if(pass_signup !== repass_signup){
+		alert("Password is not match");
+		return false;
+	}else{
+		alert("account successfully created")
+		window.location.href="home.html";
+		return false;
+	}
+}
+	
+</script>	
+	
+</body>
+</html>

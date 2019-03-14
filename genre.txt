@@ -1,0 +1,81 @@
+<ul>
+		<!-- Frame comic-->
+		<li class="frame-genrecomic"><img alt="sample" src="img/comic1.jpg">
+			<ul>
+			<li class="title-genrecomic">Nama Comic</li>
+			<li class="sol-genrecomic">Slice of life </li>
+			</ul>
+		</li>
+			
+		<!-- Frame comic-->
+		<li class="frame-genrecomic"><img alt="sample" src="img/comic1.jpg">
+			<ul>
+			<li class="title-genrecomic">Nama Comic</li>
+			<li class="drama-genrecomic">Drama </li>
+			</ul>
+		</li>
+			
+		<!-- Frame comic-->	
+		<li class="frame-genrecomic"><img alt="sample" src="img/comic1.jpg">
+			<ul>
+			<li class="title-genrecomic">Nama Comic</li>
+			<li class="comedy-genrecomic">Comedy </li>
+			</ul>
+		</li>
+			
+		<!-- Frame comic-->	
+		<li class="frame-genrecomic"><img alt="sample" src="img/comic1.jpg">
+			<ul>
+			<li class="title-genrecomic">Nama Comic</li>
+			<li class="romance-genrecomic">Romance</li>
+			</ul>
+		</li>
+			
+		<!-- Frame comic-->	
+		<li class="frame-genrecomic"><img alt="sample" src="img/comic1.jpg">
+			<ul>
+			<li class="title-genrecomic">Nama Comic</li>
+			<li class="horror-genrecomic">Horror</li>
+			</ul>
+		</li>
+			
+		<!-- Frame comic-->	
+		<li class="frame-genrecomic"><img alt="sample" src="img/comic1.jpg">
+			<ul>
+			<li class="title-genrecomic">Nama Comic</li>
+			<li class="sol-genrecomic">Slice of life </li>
+			</ul>
+		</li>
+			
+		<!-- Frame comic-->	
+		<li class="frame-genrecomic"><img alt="sample" src="img/comic1.jpg">
+			<ul>
+			<li class="title-genrecomic">Nama Comic</li>
+			<li class="drama-genrecomic">Drama </li>
+			</ul>
+		</li>
+			
+		<!-- Frame comic-->	
+		<li class="frame-genrecomic"><img alt="sample" src="img/comic1.jpg">
+			<ul>
+			<li class="title-genrecomic">Nama Comic</li>
+			<li class="comedy-genrecomic">Comedy </li>
+			</ul>
+		</li>
+			
+		<!-- Frame comic-->	
+		<li class="frame-genrecomic"><img alt="sample" src="img/comic1.jpg">
+			<ul>
+			<li class="title-genrecomic">Nama Comic</li>
+			<li class="romance-genrecomic">Romance</li>
+			</ul>
+		</li>
+			
+		<!-- Frame comic-->	
+		<li class="frame-genrecomic"><img alt="sample" src="img/comic1.jpg">
+			<ul>
+			<li class="title-genrecomic">Nama Comic</li>
+			<li id="horror-genrecomic">Horror</li>
+			</ul>
+		</li>
+		</ul>	
